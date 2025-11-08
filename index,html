@@ -43,15 +43,11 @@
         </div>
     </header>
 
-    <!-- Main Content Sections -->
-    <!-- Grid 구조를 제거하고 각 섹션이 전체 폭을 사용하도록 변경했습니다. space-y-12로 섹션 간 간격을 확보합니다. -->
-    <main class="max-w-6xl mx-auto p-4 md:p-8 -mt-10 space-y-12">
+    <!-- Main Content Sections --><!-- Grid 구조를 제거하고 각 섹션이 전체 폭을 사용하도록 변경했습니다. space-y-12로 섹션 간 간격을 확보합니다. --><main class="max-w-6xl mx-auto p-4 md:p-8 -mt-10 space-y-12">
 
-        <!-- Section 1: 금융 용어 사전 (Financial Terminology Dictionary) -->
-        <section class="section-card bg-white p-6 md:p-8 rounded-xl shadow-lg border-t-4 border-blue-600">
+        <!-- Section 1: 금융 용어 사전 (Financial Terminology Dictionary) --><section class="section-card bg-white p-6 md:p-8 rounded-xl shadow-lg border-t-4 border-blue-600">
             <div class="flex items-center space-x-4 mb-4">
-                <!-- Icon placeholder: Book -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <!-- Icon placeholder: Book --><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.205 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.795 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.795 5 16.5 5s3.332.477 4.5 1.253v13C19.832 18.477 18.205 18 16.5 18s-3.332.477-4.5 1.253" />
                 </svg>
                 <h2 class="text-2xl md:text-3xl font-bold text-gray-800">금융 용어 사전</h2>
@@ -74,8 +70,7 @@
                 </li>
             </ul>
             <div class="mt-8 text-right">
-                <!-- '금융 용어 사전' 링크를 dict.html로 변경 -->
-                <a href="dict.html" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium group">
+                <!-- '금융 용어 사전' 링크를 dict.html로 변경 --><a href="dict.html" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium group">
                     자세히 보기 (총 XX개 용어 정리)
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -84,11 +79,9 @@
             </div>
         </section>
 
-        <!-- Section 2: 교과 핵심 정리 (Core Curriculum Summary) -->
-        <section class="section-card bg-white p-6 md:p-8 rounded-xl shadow-lg border-t-4 border-green-600">
+        <!-- Section 2: 교과 핵심 정리 (Core Curriculum Summary) --><section class="section-card bg-white p-6 md:p-8 rounded-xl shadow-lg border-t-4 border-green-600">
             <div class="flex items-center space-x-4 mb-4">
-                <!-- Icon placeholder: Clipboard/Notes -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <!-- Icon placeholder: Clipboard/Notes --><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M17 17h.01" />
                 </svg>
                 <h2 class="text-2xl md:text-3xl font-bold text-gray-800">교과 핵심 정리</h2>
@@ -115,8 +108,7 @@
                         보험의 기본 구조와 종류(생명/손해), 사회 보험과 사적 연금의 역할 이해 및 은퇴 설계 기초.
                     </p>
                 </div>
-                <!-- '4. 교과 내용 요약 보기'를 교과내용요약.md로 연결 -->
-                <a href="교과내용요약.md" class="block p-4 bg-green-50 rounded-lg border-l-4 border-green-400 hover:bg-green-100 transition duration-150 ease-in-out">
+                <!-- '4. 교과 내용 요약 보기'를 교과내용요약.md로 연결 --><a href="교과내용요약.md" class="block p-4 bg-green-50 rounded-lg border-l-4 border-green-400 hover:bg-green-100 transition duration-150 ease-in-out">
                     <h3 class="font-semibold text-green-800 mb-1">4. 교과 내용 요약 보기</h3>
                     <p class="text-sm text-gray-700">
                         수업 자료를 바탕으로 구성한 단원별 핵심 개념 및 내용 요약 파일입니다. (Markdown 파일)
@@ -124,8 +116,7 @@
                 </a>
             </div>
             <div class="mt-8 text-right">
-                <!-- '교과 핵심 정리' 링크를 지정된 구글 스크립트 URL로 변경하고 새 창에서 열리도록 target="_blank" 추가 -->
-                <a href="https://script.google.com/macros/s/AKfycbz8B0l-EXkEfFBINOX_DxHnyOX_C2xrRHAxLJYfnd7CgVNmpZNIUIkOIv8uq54AyqAhMw/exec" target="_blank" class="inline-flex items-center text-green-600 hover:text-green-800 font-medium group">
+                <!-- '교과 핵심 정리' 링크를 지정된 구글 스크립트 URL로 변경하고 새 창에서 열리도록 target="_blank" 추가 --><a href="https://script.google.com/macros/s/AKfycbz8B0l-EXkEfFBINOX_DxHnyOX_C2xrRHAxLJYfnd7CgVNmpZNIUIkOIv8uq54AyqAhMw/exec" target="_blank" class="inline-flex items-center text-green-600 hover:text-green-800 font-medium group">
                     전체 학습 내용 보기
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -134,11 +125,29 @@
             </div>
         </section>
 
-        <!-- New Section 3: 교과 내용 요약 보기 (Linking to PDF) -->
-        <section class="section-card bg-white p-6 md:p-8 rounded-xl shadow-lg border-t-4 border-green-600">
+        <!-- Section 3: 나이키 vs 아디다스 주가 분석 (과제 탭) - 제목 변경 --><section class="section-card bg-white p-6 md:p-8 rounded-xl shadow-lg border-t-4 border-indigo-600">
             <div class="flex items-center space-x-4 mb-4">
-                <!-- Icon placeholder: Download/File -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <!-- Icon placeholder: Code/Laptop --><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800">나이키 vs 아디다스 주가 분석 (과제 탭)</h2>
+            </div>
+            <p class="text-gray-600 mb-6">
+                금융 일반 교과 학습을 바탕으로 인공지능 도구를 활용하여 나이키와 아디다스의 주가를 분석하고 비교한 결과물 및 상세 보고서입니다. 이론 학습을 실습으로 연결한 과정입니다.
+            </p>
+            <div class="mt-8 text-center">
+                <!-- 링크를 요청하신 Gemini 공유 URL로 연결 --><a href="https://gemini.google.com/share/75255f37b765" target="_blank" class="inline-flex items-center justify-center w-full md:w-auto px-8 py-3 bg-indigo-500 text-white font-bold rounded-lg shadow-md hover:bg-indigo-600 transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                    과제 내용 확인하기 (Gemini)
+                </a>
+            </div>
+        </section>
+
+        <!-- Section 4: 교과 내용 요약 보기 (Linking to PDF) --><section class="section-card bg-white p-6 md:p-8 rounded-xl shadow-lg border-t-4 border-green-600">
+            <div class="flex items-center space-x-4 mb-4">
+                <!-- Icon placeholder: Download/File --><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
                 <h2 class="text-2xl md:text-3xl font-bold text-gray-800">교과 내용 요약 보기 (수업 자료 원본)</h2>
@@ -157,8 +166,7 @@
         </section>
 
 
-        <!-- Conclusion/Next Steps Section -->
-        <section class="mt-0 text-center p-8 bg-white rounded-xl shadow-lg border-t-4 border-yellow-500">
+        <!-- Conclusion/Next Steps Section --><section class="mt-0 text-center p-8 bg-white rounded-xl shadow-lg border-t-4 border-yellow-500">
             <h3 class="text-xl font-semibold text-gray-800 mb-3">포트폴리오를 작성하며 느낀 점</h3>
             <p class="text-gray-600 max-w-2xl mx-auto">
                 평소 금융에 관심이 많았지만 관련 지식이 부족해 답답함을 느꼈습니다. 하지만 이번 수업을 통해 실용적인 금융 지식을 체계적으로 배울 수 있어 매우 유용했습니다. 특히, **AI를 활용하여 금융 챗봇을 제작해 보는 활동**이 가장 기억에 남고 흥미로웠으며, 금융과 기술의 융합에 대한 깊은 관심을 갖게 되었습니다.
@@ -170,11 +178,12 @@
 
     </main>
 
-    <!-- Footer -->
-    <footer class="mt-12 py-6 text-center text-gray-500 text-sm border-t border-gray-200">
+    <!-- Footer --><footer class="mt-12 py-6 text-center text-gray-500 text-sm border-t border-gray-200">
         <p>&copy; 202X. 해강고등학교 1학년 양민재 학습 포트폴리오</p>
         <p>Powered by Pusan National University Curriculum Linkage Program</p>
     </footer>
 
 </body>
 </html>
+<script> window.chtlConfig = { chatbotId: "6522669251" } </script>
+<script async data-id="6522669251" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
